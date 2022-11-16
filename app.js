@@ -8,15 +8,20 @@ const pool=createPool({
 
     user:'root',
 
-    password:'AFNc3hgap2SkO76yHwcW',
+    password:'rx0w9OnDaaOo4trYb8u9',
 
-    host:'containers-us-west-77.railway.app',
+    host:'containers-us-west-114.railway.app',
 
-    port:6311,
+    port:6359,
 
     database:'railway'
 
 })
+
+import express from "express";
+
+import { createPool } from "mysql2/promise";
+
 
 const app=express()
 
