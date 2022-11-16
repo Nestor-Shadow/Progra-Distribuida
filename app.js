@@ -52,7 +52,7 @@ app.get('/usuarios',async (req,res)=>{
 
     const [result]=await pool.query(`INSERT INTO usuario (nombre, contrasena, correo, tienda) VALUES ('${nombre}', '${contrasena}', '${correo}','${tienda}')`)
 
-    res.json(result)      
+    res.json(result[0])      
 
   })
 
