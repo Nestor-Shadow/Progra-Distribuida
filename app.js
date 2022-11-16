@@ -18,11 +18,6 @@ const pool=createPool({
 
 })
 
-import express from "express";
-
-import { createPool } from "mysql2/promise";
-
-
 const app=express()
 
  
