@@ -50,7 +50,7 @@ app.get('/usuarios',async (req,res)=>{
 
     const tienda=req.query.tienda  
 
-    const [result]=await pool.query(`INSERT INTO usuarios (nombre, contrasena, correo, tienda) VALUES ('${nombre}', '${contrasena}', '${correo}','${tienda}')`)
+    const [result]=await pool.query(`INSERT INTO usuario (nombre, contrasena, correo, tienda) VALUES ('${nombre}', '${contrasena}', '${correo}','${tienda}')`)
 
     res.json(result[0])      
 
