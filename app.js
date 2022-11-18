@@ -8,11 +8,11 @@ const pool=createPool({
 
     user:'root',
 
-    password:'rx0w9OnDaaOo4trYb8u9',
+    password:'4weFx47i8WpBhe3mGndF',
 
-    host:'containers-us-west-114.railway.app',
+    host:'containers-us-west-119.railway.app',
 
-    port:6359,
+    port:5619,
 
     database:'railway'
 
